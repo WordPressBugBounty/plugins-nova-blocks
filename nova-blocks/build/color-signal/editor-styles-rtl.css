@@ -1,0 +1,154 @@
+.components-nb-color-grades-control .components-base-control__field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .components-nb-color-grades-control .components-base-control__field .nb-signal-icon {
+    --bar-width: 6px;
+    --bar-space: 2px;
+    --bar-height: 20px;
+    --bar-height-diff: 7px; }
+
+.nb-palette__grades {
+  display: flex;
+  margin-right: -2px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.nb-palette__grade {
+  flex: 1 1 0;
+  margin-right: 2px;
+  position: relative;
+  background: none !important;
+  cursor: pointer; }
+  .nb-palette__grade:before {
+    content: "";
+    display: block;
+    padding-top: 150%; }
+  .nb-palette__grade:hover {
+    z-index: 50; }
+
+.nb-palette__grade--selected {
+  cursor: default; }
+
+.nb-palette__grade--disabled {
+  pointer-events: none; }
+  .nb-palette__grade--disabled .nb-palette__grade-surface {
+    background: #EEEEEE; }
+  .nb-palette__grade--disabled .nb-palette__grade-icon {
+    color: #CCCCCC; }
+
+.nb-palette__grade-surface {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 0 0 1px inset;
+  background: var(--nb-bg-color); }
+  .nb-palette__grade:hover .nb-palette__grade-surface,
+  .nb-palette__grade--selected .nb-palette__grade-surface {
+    top: -7px;
+    bottom: -7px;
+    right: -7px;
+    left: -7px;
+    border: 2px solid white;
+    z-index: 20; }
+  .nb-palette__grade--source:not(:hover):not(.nb-palette__grade--selected) .nb-palette__grade-surface {
+    background: none;
+    box-shadow: none; }
+
+.nb-palette__grade-icon {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  z-index: 30;
+  width: 1em;
+  transform: translate(50%, -50%); }
+  .nb-palette__grade-icon svg {
+    display: block; }
+  .nb-palette__grade--source:not(:hover):not(.nb-palette__grade--selected) .nb-palette__grade-icon {
+    color: var(--nb-bg-color); }
+
+.nb-palette__signal-previews {
+  display: flex;
+  gap: 2px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .nb-palette__signal-previews > * {
+    flex: 1 0 0; }
+
+.nb-palette__signal-preview {
+  min-height: 30px;
+  background-image: linear-gradient(-58deg, white 48%, transparent 52%);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 1px inset; }
+  .nb-palette__signal-preview--1 {
+    background-color: #DDDDDD; }
+  .nb-palette__signal-preview--2 {
+    background-color: #888888; }
+  .nb-palette__signal-preview--3 {
+    background-color: #222222; }
+
+.novablocks-controls-group--colors-miscellanous-controls .components-toggle-control {
+  margin-bottom: 0; }
+
+.color-palette-picker[class][class] {
+  margin-bottom: 0; }
+
+.color-palette-picker__palettes {
+  display: flex;
+  flex-wrap: wrap; }
+
+@keyframes dash {
+  100% {
+    stroke-dashoffset: 0; } }
+
+.color-palette-picker__color-dash,
+.color-palette-picker__color-fill {
+  transition: all .2s ease-out; }
+
+.color-palette-picker__color-dash {
+  animation: dash .5s linear infinite;
+  stroke-width: 2;
+  stroke-dasharray: 4 3;
+  stroke-dashoffset: 7; }
+
+.color-palette-picker__color {
+  position: relative;
+  padding: 0;
+  outline: 0;
+  background: none;
+  border: 0;
+  cursor: pointer; }
+  .color-palette-picker__color svg {
+    display: block; }
+  .color-palette-picker__color:hover .color-palette-picker__color-dash {
+    r: 23; }
+  .color-palette-picker__color:hover .color-palette-picker__color-fill {
+    r: 20; }
+  .color-palette-picker__color:hover .color-palette-picker__color-dash {
+    stroke-width: 2;
+    stroke-dasharray: 4;
+    stroke-dashoffset: 8; }
+  .color-palette-picker__color:focus .color-palette-picker__color-dash {
+    stroke: currentColor; }
+  .color-palette-picker__color:focus:not(:hover) .color-palette-picker__color-dash {
+    animation-play-state: paused; }
+  .color-palette-picker__color--favorite[class] .color-palette-picker__color-dash {
+    stroke-dasharray: 8 0; }
+
+.color-palette-picker__color-svg {
+  width: 54px;
+  height: 54px;
+  transform: rotate(-45deg); }
+
+.color-palette-picker__tick {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: #FFFFFF;
+  width: 1em;
+  height: 1em; }
+  .color-palette-picker__tick svg {
+    display: block; }

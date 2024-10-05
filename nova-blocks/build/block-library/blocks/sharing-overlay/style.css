@@ -1,0 +1,221 @@
+:root {
+  --nb-sharing-overlay-spacing: calc( var(--nb-spacing) / 3 ); }
+
+.novablocks-sharing .wp-block-button__link {
+  display: flex;
+  align-items: center; }
+  .novablocks-sharing .wp-block-button__link > * {
+    flex: 0 0 auto; }
+  .novablocks-sharing .wp-block-button__link > svg {
+    width: 20px; }
+  .novablocks-sharing .wp-block-button__link > * + * {
+    margin-left: calc( var(--nb-spacing) / 3); }
+
+.novablocks-sharing__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3000;
+  max-width: 100%; }
+  .novablocks-sharing__overlay:not(.is-visible) {
+    display: none; }
+
+.novablocks-sharing__wrap {
+  position: relative;
+  width: 25em;
+  max-width: 100%;
+  border-radius: 1em;
+  background-color: var(--sm-current-bg-color, var(--nb-bg-color)); }
+  .novablocks-sharing__wrap a {
+    color: inherit;
+    text-decoration: none; }
+  .novablocks-sharing__wrap:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid currentColor;
+    opacity: 0.1;
+    pointer-events: none;
+    border-radius: inherit; }
+
+.novablocks-sharing__container {
+  position: relative;
+  max-height: 100%;
+  padding: calc( var(--nb-spacing) / 2);
+  overflow: auto; }
+
+:is(
+.novablocks-sharing__content,
+.novablocks-sharing__group,
+.novablocks-sharing__group-content
+) > * {
+  --nb-block-top-spacing: 1;
+  --nb-block-bottom-spacing: 0;
+  --nb-emphasis-top-spacing: 0;
+  --nb-emphasis-bottom-spacing: 0;
+  --nb-current-spacing: calc(var(--nb-spacing) * var(--nb-spacing-current-multiplier));
+  margin-top: calc(var(--nb-block-top-spacing) * var(--nb-current-spacing) * var(--nb-spacing-multiplier-override, 1));
+  margin-bottom: calc(var(--nb-block-bottom-spacing) * var(--nb-current-spacing) * var(--nb-spacing-multiplier-override, 1));
+  padding-top: calc(var(--nb-emphasis-top-spacing) * var(--nb-current-spacing) * var(--nb-spacing-multiplier-override, 1));
+  padding-bottom: calc(var(--nb-emphasis-bottom-spacing) * var(--nb-current-spacing) * var(--nb-spacing-multiplier-override, 1)); }
+
+:is(
+.novablocks-sharing__content,
+.novablocks-sharing__group,
+.novablocks-sharing__group-content
+) > :first-child,
+:is(
+.novablocks-sharing__content,
+.novablocks-sharing__group,
+.novablocks-sharing__group-content
+) :is(noscript, style) + * {
+  --nb-block-top-spacing: 0; }
+
+.novablocks-sharing__content > * {
+  --nb-spacing-current-multiplier: 0.4; }
+
+.novablocks-sharing__group > * {
+  --nb-spacing-current-multiplier: 0.15; }
+
+.novablocks-sharing__group-content > * {
+  --nb-spacing-current-multiplier: 0.125; }
+
+.novablocks-sharing__close {
+  position: absolute;
+  top: var(--nb-sharing-overlay-spacing);
+  right: var(--nb-sharing-overlay-spacing);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+  margin-top: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  transform: translateZ(0); }
+  .novablocks-sharing__close:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.15;
+    background: var(--sm-current-fg1-color, var(--nb-fg1-color));
+    transition: var(--nb-transition);
+    transition-property: background-color, opacity;
+    transition-duration: .15s; }
+  .novablocks-sharing__close:hover:before {
+    opacity: 0.3;
+    background: var(--sm-current-accent-color, var(--nb-accent-color)); }
+  .novablocks-sharing__close svg {
+    width: 0.75em;
+    height: 0.75em; }
+
+.novablocks-sharing__group {
+  position: relative; }
+
+.novablocks-sharing__notification-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none; }
+
+.novablocks-sharing__notification--visible {
+  animation: show-copied-notification 2s forwards; }
+
+@keyframes show-copied-notification {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 1; }
+  70% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+.novablocks-sharing__notification {
+  display: flex;
+  align-items: center;
+  padding: 0.33em 1em;
+  background: rgba(0, 0, 0, 0.75);
+  color: #FFFFFF;
+  border-radius: 999em; }
+
+.novablocks-sharing__notification-icon {
+  color: #00cab6; }
+  .novablocks-sharing__notification-icon svg {
+    display: block;
+    width: 0.8em; }
+  .novablocks-sharing__notification-icon + .novablocks-sharing__notification-text {
+    margin-left: 0.66em; }
+
+.novablocks-sharing__group-description[class] {
+  --nb-spacing-current-multiplier: 0; }
+
+.novablocks-sharing__list {
+  padding-left: 0;
+  margin-left: 0;
+  overflow: hidden;
+  border-radius: 0.5em;
+  list-style: none; }
+
+.novablocks-sharing__list-item + .novablocks-sharing__list-item {
+  margin-top: 1px; }
+
+.novablocks-sharing__link,
+.novablocks-sharing__copy-input {
+  padding: calc( var(--nb-sharing-overlay-spacing) * 3 / 4); }
+
+.novablocks-sharing__copy-input {
+  font-size: 0.8em; }
+
+.novablocks-sharing__link {
+  display: flex;
+  align-items: center;
+  margin-left: calc( var(--nb-sharing-overlay-spacing) * -3 / 4); }
+  .novablocks-sharing__link > * {
+    margin-left: calc( var(--nb-sharing-overlay-spacing) * 3 / 4); }
+  .novablocks-sharing__link[class][class] {
+    color: var(--sm-current-fg1-color, var(--nb-fg1-color));
+    text-decoration: none; }
+  .novablocks-sharing__link:not(.novablocks-sharing__link--copy) {
+    transform: translateZ(0); }
+    .novablocks-sharing__link:not(.novablocks-sharing__link--copy):before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      opacity: 0.15;
+      background: var(--sm-current-fg1-color, var(--nb-fg1-color));
+      transition: var(--nb-transition);
+      transition-property: background-color, opacity;
+      transition-duration: .15s; }
+    .novablocks-sharing__link:not(.novablocks-sharing__link--copy):hover:before {
+      opacity: 0.3;
+      background: var(--sm-current-accent-color, var(--nb-accent-color)); }
+
+.novablocks-sharing__link-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 1.5em; }
+  .novablocks-sharing__link-icon svg {
+    width: 1em;
+    height: 1em; }

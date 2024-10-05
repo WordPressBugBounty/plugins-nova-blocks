@@ -1,0 +1,29 @@
+:is(.facetwp-type-radio, #specific) .facetwp-radio {
+  background: none !important;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 0.25em; }
+
+:is(.facetwp-type-radio, #specific) .facetwp-display-value {
+  padding: 0; }
+
+:is(.facetwp-type-radio, #specific) * {
+  font-weight: inherit; }
+
+:is(.facetwp-type-radio, #specific) .facetwp-radio:is(.checked) {
+  text-decoration: underline;
+  font-weight: bolder; }
+
+:is(.facetwp-type-radio, #specific) .facetwp-radio:is(:hover:not(.disabled)) {
+  text-decoration: underline; }
+
+.facetwp-checkbox.disabled, .facetwp-radio.disabled {
+  opacity: 0.4;
+  cursor: default; }
+
+.nb-facetwp-facet--hide-counts .facetwp-counter {
+  display: none; }
+
+.nb-facetwp-facet--hide-labels .nb-facetwp-facet__label {
+  display: none; }

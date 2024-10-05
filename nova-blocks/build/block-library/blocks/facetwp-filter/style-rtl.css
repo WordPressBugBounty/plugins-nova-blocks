@@ -1,0 +1,73 @@
+.nb-facetwp-facet__options .facetwp-facet {
+  margin-bottom: 0; }
+
+.nb-facetwp-filter--section-type-hidden:not(.is-visible) {
+  display: none; }
+
+:is(.facetwp-selections, #specific) > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em; }
+  :is(.facetwp-selections, #specific) > ul > li {
+    position: relative;
+    padding: 0.25em 0.75em;
+    transform: translateZ(0); }
+    :is(.facetwp-selections, #specific) > ul > li:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+      background: currentColor;
+      opacity: 0.1;
+      border-radius: 0.25em; }
+
+:is(.facetwp-selections, #specific) .facetwp-selection-value {
+  position: relative;
+  padding-left: 1.4em;
+  margin-left: 0;
+  background: none; }
+  :is(.facetwp-selections, #specific) .facetwp-selection-value:before, :is(.facetwp-selections, #specific) .facetwp-selection-value:after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.4em);
+    left: 0.4em;
+    display: block;
+    width: 0.1em;
+    height: 0.8em;
+    border-radius: 0.1em;
+    background: currentColor; }
+  :is(.facetwp-selections, #specific) .facetwp-selection-value:before {
+    transform: rotate(-45deg); }
+  :is(.facetwp-selections, #specific) .facetwp-selection-value:after {
+    transform: rotate(45deg); }
+
+.nb-facetwp-filter--orientation-horizontal {
+  display: flex;
+  gap: var(--nb-spacing); }
+  .nb-facetwp-filter--orientation-horizontal .nb-facetwp-facet {
+    display: flex;
+    gap: var(--theme-spacing-smaller);
+    flex-wrap: wrap; }
+  .nb-facetwp-filter--orientation-horizontal :is(.facetwp-type-radio) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc( var(--nb-spacing) * 0.5); }
+
+.nb-facetwp-filter--orientation-vertical .nb-facetwp-facet__options {
+  --font-size-modifier: 0.9; }
+
+.nb-facetwp-filter--orientation-vertical .nb-facetwp-facet__label {
+  margin-bottom: var(--theme-spacing-smallest); }
+
+.nb-facetwp-filter--orientation-vertical :is(.facetwp-type-radio) {
+  display: flex;
+  flex-direction: column;
+  gap: calc( var(--theme-spacing-smallest) * 0.5); }
+
+:is(.nb-facetwp-title, .nb-facetwp-facet__label) {
+  font-weight: bolder; }
+  :is(.nb-facetwp-title, .nb-facetwp-facet__label) * {
+    font-weight: inherit; }

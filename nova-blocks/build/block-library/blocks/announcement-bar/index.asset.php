@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('novablocks-block-editor', 'wp-block-editor', 'wp-blocks', 'wp-components', 'wp-element', 'wp-i18n', 'wp-polyfill'), 'version' => 'f7f37be5878e808d163924dfc58549aa');

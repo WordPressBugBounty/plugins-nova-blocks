@@ -1,0 +1,58 @@
+@media not screen and (min-width: 1024px) {
+  .nb-header-row {
+    display: flex;
+    flex-direction: column;
+    --header-background-opacity: 0;
+    --nb-block-top-spacing: 0 !important;
+    --nb-block-bottom-spacing: 0 !important;
+    --nb-emphasis-top-spacing: 0 !important;
+    --nb-emphasis-bottom-spacing: 0 !important; }
+    .nb-header-row .nb-navigation--primary {
+      order: -1; }
+  :is(.nb-header-row, .more.specfic) {
+    --sm-current-bg-color: inherit;
+    --sm-current-fg1-color: inherit;
+    --sm-current-fg2-color: inherit;
+    --sm-current-accent-color: inherit; }
+  .nb-header-row--primary {
+    order: -1; } }
+
+.nb-header-row {
+  position: relative;
+  z-index: 10;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 var(--nb-wrapper-sides-spacings); }
+
+:is(.nb-header-row__inner-container, .specificity.x2.x3.x4) {
+  padding-left: 0;
+  padding-right: 0; }
+
+.nb-header-row__inner-container[class] > .wp-block.alignfull[class] {
+  margin-left: 0;
+  margin-right: 0; }
+
+@media only screen and (min-width: 1024px) {
+  .nb-header-row__inner-container[class] > .wp-block {
+    display: flex;
+    -moz-column-gap: var(--nb-navigation-item-spacing);
+         column-gap: var(--nb-navigation-item-spacing);
+    align-items: center; }
+    .nb-header-row__inner-container[class] > .wp-block > :first-child:not(:last-child),
+    .nb-header-row__inner-container[class] > .wp-block > :last-child:not(:first-child) {
+      flex: 1 1 50%; }
+    .nb-header-row__inner-container[class] > .wp-block > :only-child,
+    .nb-header-row__inner-container[class] > .wp-block > :not(:first-child):not(:last-child) {
+      flex: 1 0 auto; }
+    .nb-header-row__inner-container[class] > .wp-block > * {
+      justify-content: var(--justify-content, center); }
+    .nb-header-row__inner-container[class] > .wp-block > :first-child:not(:last-child) {
+      --justify-content: flex-start; }
+    .nb-header-row__inner-container[class] > .wp-block > :last-child:not(:first-child) {
+      --justify-content: flex-end; }
+    .nb-header-row__inner-container[class] > .wp-block > [class*='branding'][class][class][class] {
+      flex-basis: auto; }
+    .nb-header-row__inner-container[class] > .wp-block > [class*='nb-navigation'][class][class][class] {
+      flex-grow: 1; }
+  .nb-header[class] .nb-header-row:not(.nb-header-row--primary) {
+    --nb-navigation-item-spacing: 1.25em; } }

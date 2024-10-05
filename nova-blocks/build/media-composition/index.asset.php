@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('jquery', 'novablocks-block-editor', 'novablocks-shape-modeling', 'novablocks-utils', 'wp-block-editor', 'wp-components', 'wp-compose', 'wp-element', 'wp-hooks', 'wp-i18n', 'wp-polyfill'), 'version' => 'a49ef0b4be369056c207f1b83dff5627');

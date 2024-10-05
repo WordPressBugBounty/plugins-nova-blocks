@@ -1,0 +1,35 @@
+.novablocks-announcement-bar__url-field-wrapper .components-base-control {
+  padding-right: 16px;
+  padding-left: 16px;
+  max-width: 500px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; }
+
+.novablocks-announcement-bar__url-field-wrapper .components-toggle-control .components-base-control__field {
+  justify-content: center; }
+
+.novablocks-announcement-bar__url-field-wrapper .wp-block-button__inline-link {
+  color: inherit; }
+
+.novablocks-announcement-bar__url-field-wrapper ::-webkit-input-placeholder {
+  color: var(--nb-fg1-color);
+  opacity: 0.5; }
+
+.novablocks-announcement-bar__url-field-wrapper :-moz-placeholder {
+  color: var(--nb-fg1-color);
+  opacity: 0.5; }
+
+.novablocks-announcement-bar__url-field-wrapper ::-moz-placeholder {
+  color: var(--nb-fg1-color);
+  opacity: 0.5; }
+
+.novablocks-announcement-bar__url-field-wrapper :-ms-input-placeholder {
+  color: var(--nb-fg1-color);
+  opacity: 0.5; }
+
+.novablocks-announcement-bar .block-editor-inner-blocks {
+  padding: var(--nb-announcement-bar-padding) calc(2*var(--nb-announcement-bar-padding) + var(--nb-announcement-bar-close-width)); }
+
+.novablocks-announcement-bar .block-list-appender {
+  margin: 0 !important; }

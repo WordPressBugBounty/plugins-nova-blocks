@@ -1,0 +1,45 @@
+.novablocks-map__map-container {
+  position: relative;
+  padding-top: 100%; }
+  @media only screen and (min-width: 768px) {
+    .novablocks-map__map-container {
+      padding-top: 75%; } }
+  @media only screen and (min-width: 1440px) {
+    .novablocks-map__map-container {
+      padding-top: 56.25%; } }
+  .novablocks-map__map-container > .novablocks-doppler__mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%; }
+
+.novablocks-map__map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+
+.novablocks-gmap__marker {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -100%); }
+  .novablocks-gmap__marker svg {
+    display: block; }
+
+.novablocks-gamp__marker-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  padding: 0.2em calc(62px + 0.3em) 0.2em 0.7em;
+  white-space: nowrap;
+  background: var(--nb-bg-color);
+  border-radius: 999em; }
+
+.novablocks-gamp__marker-icon {
+  position: relative; }

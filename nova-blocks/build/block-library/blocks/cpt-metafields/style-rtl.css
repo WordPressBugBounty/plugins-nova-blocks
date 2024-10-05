@@ -1,0 +1,10 @@
+.nb-cpt-metafields__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--nb-spacing);
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr)); }
+
+.nb-cpt-metafields__list-item-value {
+  margin: 0; }

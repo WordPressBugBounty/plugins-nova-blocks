@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('novablocks-easings', 'wp-polyfill'), 'version' => 'ce7821020638d5bdc729aba34e6e6d4c');
