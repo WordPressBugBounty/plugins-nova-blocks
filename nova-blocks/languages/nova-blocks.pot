@@ -1,42 +1,48 @@
-# Copyright (C) 2024 Pixelgrade
+# Copyright (C) 2025 Pixelgrade
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Nova Blocks 2.1.8\n"
+"Project-Id-Version: Nova Blocks 2.1.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/nova-blocks\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-09-09T13:11:17+00:00\n"
+"POT-Creation-Date: 2025-06-04T14:10:16+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.9.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: nova-blocks\n"
 
 #. Plugin Name of the plugin
+#: nova-blocks.php
 msgid "Nova Blocks"
 msgstr ""
 
 #. Plugin URI of the plugin
+#: nova-blocks.php
 msgid "https://github.com/pixelgrade/nova-blocks/"
 msgstr ""
 
 #. Description of the plugin
+#: nova-blocks.php
 msgid "Nova Blocks is a collection of <strong>distinctive Gutenberg blocks</strong>, committed to making your site shine like a newborn star. It is taking a design-driven approach to help you made the right decisions and showcase your content in the best shape."
 msgstr ""
 
 #. Author of the plugin
+#: nova-blocks.php
 msgid "Pixelgrade"
 msgstr ""
 
 #. Author URI of the plugin
+#: nova-blocks.php
 msgid "https://www.pixelgrade.com"
 msgstr ""
 
 #. translators: %s: The current custom post type context.
 #: build/block-library/blocks/cpt-metafields/init.php:49
 #: packages/block-library/src/blocks/cpt-metafields/init.php:49
+#, php-format
 msgid "The \"%s\" post type doesn't support custom metafields."
 msgstr ""
 
@@ -69,7 +75,7 @@ msgstr ""
 
 #: build/block-library/blocks/post-comments/init.php:71
 #: packages/block-library/src/blocks/post-comments/init.php:71
-#: build/block-library/blocks/sharing-overlay/frontend.js:1933
+#: build/block-library/blocks/sharing-overlay/frontend.js:1
 msgid "Link copied to your clipboard"
 msgstr ""
 
@@ -111,6 +117,7 @@ msgstr ""
 #. translators: %s: Current logged-in user display name.
 #: build/block-library/blocks/post-comments/lib/actions/class-novablocks-comments-highlight.php:200
 #: packages/block-library/src/blocks/post-comments/lib/actions/class-novablocks-comments-highlight.php:200
+#, php-format
 msgid "Me (%s)"
 msgstr ""
 
@@ -288,6 +295,7 @@ msgstr ""
 #. translators %s: The current commenter name.
 #: build/block-library/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:66
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:66
+#, php-format
 msgid "What's your comment or question, %s?"
 msgstr ""
 
@@ -308,7 +316,7 @@ msgstr ""
 
 #: build/block-library/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:80
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:80
-#: build/block-library/blocks/post-comments/index.js:1507
+#: build/block-library/blocks/post-comments/index.js:6
 msgid "Example: Practical philosopher, therapist and writer."
 msgstr ""
 
@@ -319,7 +327,7 @@ msgstr ""
 
 #: build/block-library/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:84
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:84
-#: build/block-library/blocks/post-comments/index.js:1520
+#: build/block-library/blocks/post-comments/index.js:6
 msgid "What is your name?"
 msgstr ""
 
@@ -330,7 +338,7 @@ msgstr ""
 
 #: build/block-library/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:90
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:90
-#: build/block-library/blocks/post-comments/index.js:1535
+#: build/block-library/blocks/post-comments/index.js:6
 msgid "What is your email address?"
 msgstr ""
 
@@ -341,7 +349,7 @@ msgstr ""
 
 #: build/block-library/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:94
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:94
-#: build/block-library/blocks/post-comments/index.js:1545
+#: build/block-library/blocks/post-comments/index.js:6
 msgid "your@email.com"
 msgstr ""
 
@@ -368,7 +376,7 @@ msgstr ""
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:259
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:265
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:595
-#: build/block-library/blocks/post-comments/index.js:1552
+#: build/block-library/blocks/post-comments/index.js:6
 msgid "Add this comment"
 msgstr ""
 
@@ -384,12 +392,13 @@ msgstr ""
 #: build/block-library/blocks/post-comments/lib/renderers/class-novablocks-comments-list.php:84
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-comments-form.php:110
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-comments-list.php:84
+#, php-format
 msgid "Reply to %s"
 msgstr ""
 
 #: build/block-library/blocks/post-comments/lib/renderers/class-novablocks-comments-header.php:56
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-comments-header.php:56
-#: build/block-library/blocks/post-comments/index.js:1480
+#: build/block-library/blocks/post-comments/index.js:6
 msgid "Conversations"
 msgstr ""
 
@@ -431,7 +440,7 @@ msgstr ""
 
 #: build/block-library/blocks/post-comments/lib/renderers/class-novablocks-comments-list.php:204
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-comments-list.php:204
-#: build/block-editor/index.js:4269
+#: build/block-editor/index.js:11
 msgid "Comments"
 msgstr ""
 
@@ -440,7 +449,7 @@ msgstr ""
 #: build/block-library/blocks/post-comments/lib/renderers/class-novablocks-walker-comment.php:279
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-walker-comment.php:40
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-walker-comment.php:279
-#: build/block-editor/index.js:4263
+#: build/block-editor/index.js:11
 msgid "Author"
 msgstr ""
 
@@ -466,6 +475,7 @@ msgstr ""
 #. translators: 1: Comment date, 2: Comment time.
 #: build/block-library/blocks/post-comments/lib/renderers/class-novablocks-walker-comment.php:131
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-walker-comment.php:131
+#, php-format
 msgid "%1$s at %2$s"
 msgstr ""
 
@@ -484,6 +494,7 @@ msgstr ""
 #. translators: %s: human-readable time difference
 #: build/block-library/blocks/post-comments/lib/renderers/class-novablocks-walker-comment.php:196
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-walker-comment.php:196
+#, php-format
 msgctxt "%s = human-readable time difference"
 msgid "%s ago"
 msgstr ""
@@ -491,6 +502,7 @@ msgstr ""
 #. translators: %s: The comment date.
 #: build/block-library/blocks/post-comments/lib/renderers/class-novablocks-walker-comment.php:203
 #: packages/block-library/src/blocks/post-comments/lib/renderers/class-novablocks-walker-comment.php:203
+#, php-format
 msgid "On %s"
 msgstr ""
 
@@ -528,14 +540,16 @@ msgstr ""
 #. translators: %s: The post author name linked (byline).
 #: build/block-library/blocks/post-meta/init.php:69
 #: packages/block-library/src/blocks/post-meta/init.php:69
+#, php-format
 msgid "%s"
 msgstr ""
 
 #. translators: %s: The post reading time in minutes.
 #: build/block-library/blocks/post-meta/init.php:95
-#: lib/block-rendering.php:1827
+#: lib/block-rendering.php:1840
 #: packages/block-library/src/blocks/post-meta/init.php:95
-#: build/block-editor/index.js:3072
+#: build/block-editor/index.js:11
+#, php-format,js-format
 msgid "%s min read"
 msgstr ""
 
@@ -567,7 +581,7 @@ msgid "Next article"
 msgstr ""
 
 #: lib/block-editor-settings.php:22
-#: build/block-editor/index.js:4260
+#: build/block-editor/index.js:11
 msgid "None"
 msgstr ""
 
@@ -589,18 +603,18 @@ msgid "Full"
 msgstr ""
 
 #: lib/block-editor-settings.php:44
-#: build/block-library/blocks/sidecar/index.js:1817
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Small"
 msgstr ""
 
 #: lib/block-editor-settings.php:48
-#: build/block-library/blocks/sidecar/index.js:1820
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Medium"
 msgstr ""
 
 #: lib/block-editor-settings.php:52
 #: lib/block-editor-settings.php:66
-#: build/block-library/blocks/sidecar/index.js:1823
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Large"
 msgstr ""
 
@@ -614,7 +628,7 @@ msgid "Narrow"
 msgstr ""
 
 #: lib/block-editor-settings.php:142
-#: build/block-library/blocks/header/index.js:1603
+#: build/block-library/blocks/header/index.js:6
 msgid "Static"
 msgstr ""
 
@@ -695,19 +709,20 @@ msgctxt "Block pattern category"
 msgid "Layout: Footer"
 msgstr ""
 
-#: lib/block-rendering.php:1469
-#: lib/block-rendering.php:1716
-#: build/block-editor/index.js:2816
+#: lib/block-rendering.php:1479
+#: lib/block-rendering.php:1729
+#: build/block-editor/index.js:11
 msgid "Read More"
 msgstr ""
 
-#: lib/block-rendering.php:1771
-#: build/block-editor/index.js:3013
+#: lib/block-rendering.php:1784
+#: build/block-editor/index.js:11
 msgid "No Comments"
 msgstr ""
 
 #. translators: %s: The number of comments.
-#: lib/block-rendering.php:1777
+#: lib/block-rendering.php:1790
+#, php-format
 msgctxt "comments title"
 msgid "%s Comment"
 msgid_plural "%s Comments"
@@ -826,1931 +841,1848 @@ msgstr ""
 
 #. translators: %s: The sidebar title.
 #: lib/sidebars-blocks/class-nova_blocks-sidebars_blocks.php:114
+#, php-format
 msgid "Displays the widgets added to the `%s` sidebar, through the `Appearance → Widgets` admin page."
 msgstr ""
 
-#: build/block-editor/index.js:415
+#: build/block-editor/index.js:11
 msgid "Align Top"
 msgstr ""
 
-#: build/block-editor/index.js:419
+#: build/block-editor/index.js:11
 msgid "Align Center"
 msgstr ""
 
-#: build/block-editor/index.js:423
+#: build/block-editor/index.js:11
 msgid "Align Bottom"
 msgstr ""
 
-#: build/block-editor/index.js:444
+#: build/block-editor/index.js:11
 msgid "Vertical Alignment"
 msgstr ""
 
-#: build/block-editor/index.js:1099
-msgid "Design Customization"
-msgstr ""
-
-#: build/block-editor/index.js:1213
-#: build/block-editor/index.js:5327
-#: build/block-editor/index.js:8722
-#: build/media-composition/index.js:910
-#: build/shape-modeling/index.js:808
-msgid "Presets"
-msgstr ""
-
-#: build/block-editor/index.js:1217
-#: build/block-editor/index.js:8725
-#: build/block-library/blocks/google-map/index.js:1687
-#: build/block-library/blocks/opentable/index.js:1662
-#: build/color-signal/index.js:1353
-#: build/media-composition/index.js:922
-#: build/scrolling-effect/index.js:656
-#: build/shape-modeling/index.js:502
-msgid "Customize"
-msgstr ""
-
-#: build/block-editor/index.js:1714
-#: build/block-library/blocks/sidecar/index.js:1882
+#: build/block-editor/index.js:11
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Smallest"
 msgstr ""
 
-#: build/block-editor/index.js:1717
-#: build/block-library/blocks/sidecar/index.js:1885
+#: build/block-editor/index.js:11
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Smaller"
 msgstr ""
 
-#: build/block-editor/index.js:1720
-#: build/block-library/blocks/sidecar/index.js:1888
+#: build/block-editor/index.js:11
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Normal"
 msgstr ""
 
-#: build/block-editor/index.js:1723
-#: build/block-library/blocks/sidecar/index.js:1891
+#: build/block-editor/index.js:11
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Larger"
 msgstr ""
 
-#: build/block-editor/index.js:1726
-#: build/block-library/blocks/sidecar/index.js:1894
+#: build/block-editor/index.js:11
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Largest"
 msgstr ""
 
-#: build/block-editor/index.js:1732
+#: build/block-editor/index.js:11
 msgid "Font Size"
 msgstr ""
 
-#: build/block-editor/index.js:1795
-msgid "Drag images, upload new ones or select files from your library."
-msgstr ""
-
-#: build/block-editor/index.js:3465
+#: build/block-editor/index.js:11
 msgid "💡 Surprise me!"
 msgstr ""
 
-#: build/block-editor/index.js:3867
+#: build/block-editor/index.js:11
 msgid "Select a variation to start with."
 msgstr ""
 
-#: build/block-editor/index.js:4007
+#: build/block-editor/index.js:11
+#: build/media-composition/index.js:1
+#: build/shape-modeling/index.js:6
+msgid "Presets"
+msgstr ""
+
+#: build/block-editor/index.js:11
+#: build/block-library/blocks/google-map/index.js:6
+#: build/block-library/blocks/opentable/index.js:6
+#: build/color-signal/index.js:6
+#: build/media-composition/index.js:1
+#: build/scrolling-effect/index.js:1
+msgid "Customize"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Design Customization"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Drag images, upload new ones or select files from your library."
+msgstr ""
+
+#: build/block-editor/index.js:11
 msgid "Buttons Style"
 msgstr ""
 
-#: build/block-editor/index.js:4059
+#: build/block-editor/index.js:11
 msgid "Card Title Heading"
 msgstr ""
 
-#: build/block-editor/index.js:4069
+#: build/block-editor/index.js:11
 msgid "Card Title Font Size"
 msgstr ""
 
-#: build/block-editor/index.js:4117
+#: build/block-editor/index.js:11
 msgid "Collection Title Heading"
 msgstr ""
 
-#: build/block-editor/index.js:4127
+#: build/block-editor/index.js:11
 msgid "Collection Title Font Size"
 msgstr ""
 
-#: build/block-editor/index.js:4200
-msgid "Metadata Position"
-msgstr ""
-
-#: build/block-editor/index.js:4210
-msgid "Above Title"
-msgstr ""
-
-#: build/block-editor/index.js:4213
-msgid "Below Title"
-msgstr ""
-
-#: build/block-editor/index.js:4216
-msgid "Split (Above Title / Below Content)"
-msgstr ""
-
-#: build/block-editor/index.js:4266
+#: build/block-editor/index.js:11
 msgid "Category"
 msgstr ""
 
-#: build/block-editor/index.js:4272
+#: build/block-editor/index.js:11
 msgid "Date"
 msgstr ""
 
-#: build/block-editor/index.js:4275
+#: build/block-editor/index.js:11
 msgid "Tags"
 msgstr ""
 
-#: build/block-editor/index.js:4278
+#: build/block-editor/index.js:11
 msgid "Reading time"
 msgstr ""
 
-#: build/block-editor/index.js:4282
+#: build/block-editor/index.js:11
 msgid "Additional Information"
 msgstr ""
 
-#: build/block-editor/index.js:4285
+#: build/block-editor/index.js:11
 msgid "Primary Metadata"
 msgstr ""
 
-#: build/block-editor/index.js:4295
+#: build/block-editor/index.js:11
 msgid "Secondary Metadata"
 msgstr ""
 
-#: build/block-editor/index.js:4447
-msgid "Content Details"
+#: build/block-editor/index.js:11
+msgid "Metadata Position"
 msgstr ""
 
-#: build/block-editor/index.js:4448
-#: build/block-editor/index.js:4946
-#: build/block-library/blocks/supernova/index.js:2887
-#: build/media-composition/index.js:906
-msgid "Card Anatomy"
+#: build/block-editor/index.js:11
+msgid "Above Title"
 msgstr ""
 
-#: build/block-editor/index.js:4451
-#: build/block-editor/index.js:4620
-#: build/block-editor/index.js:4949
-#: build/block-editor/index.js:5333
-#: build/block-editor/index.js:7600
-#: build/block-editor/index.js:8733
-#: build/block-library/blocks/facetwp-facet/index.js:213
-#: build/block-library/blocks/facetwp-filter/index.js:1483
-#: build/block-library/blocks/google-map/index.js:1706
-#: build/block-library/blocks/google-map/index.js:1758
-#: build/block-library/blocks/header/index.js:1580
-#: build/block-library/blocks/menu-food/index.js:1675
-#: build/block-library/blocks/menu-food/index.js:1870
-#: build/block-library/blocks/openhours/index.js:1932
-#: build/block-library/blocks/openhours/index.js:1950
-#: build/block-library/blocks/opentable/index.js:1614
-#: build/block-library/blocks/post-comments/index.js:1739
-#: build/block-library/blocks/sharing-overlay/index.js:1492
-#: build/block-library/blocks/sidecar/index.js:1776
-#: build/block-library/blocks/supernova/index.js:2890
-#: build/color-signal/index.js:1373
-#: build/core/index.js:1630
-#: build/media-composition/index.js:937
-#: build/shape-modeling/index.js:815
-msgid "Settings"
+#: build/block-editor/index.js:11
+msgid "Below Title"
 msgstr ""
 
-#: build/block-editor/index.js:4457
+#: build/block-editor/index.js:11
+msgid "Split (Above Title / Below Content)"
+msgstr ""
+
+#: build/block-editor/index.js:11
 msgid "Content"
 msgstr ""
 
-#: build/block-editor/index.js:4490
-msgid "Card Elements Stacking Style"
+#: build/block-editor/index.js:11
+msgid "Content Details"
 msgstr ""
 
-#: build/block-editor/index.js:4566
-msgid "↓ Vertical "
+#: build/block-editor/index.js:11
+#: build/block-library/blocks/supernova/index.js:6
+#: build/media-composition/index.js:1
+msgid "Card Anatomy"
 msgstr ""
 
-#: build/block-editor/index.js:4569
-msgid "↑ Vertical Reverse"
+#: build/block-editor/index.js:11
+#: build/block-library/blocks/facetwp-facet/index.js:1
+#: build/block-library/blocks/facetwp-filter/index.js:1
+#: build/block-library/blocks/google-map/index.js:6
+#: build/block-library/blocks/header/index.js:6
+#: build/block-library/blocks/menu-food/index.js:6
+#: build/block-library/blocks/openhours/index.js:1
+#: build/block-library/blocks/opentable/index.js:6
+#: build/block-library/blocks/post-comments/index.js:6
+#: build/block-library/blocks/sharing-overlay/index.js:6
+#: build/block-library/blocks/sidecar/index.js:6
+#: build/block-library/blocks/supernova/index.js:6
+#: build/color-signal/index.js:6
+#: build/core/index.js:6
+#: build/media-composition/index.js:1
+#: build/shape-modeling/index.js:6
+msgid "Settings"
 msgstr ""
 
-#: build/block-editor/index.js:4572
-msgid "→ Horizontal"
-msgstr ""
-
-#: build/block-editor/index.js:4575
-msgid "← Horizontal Reverse"
-msgstr ""
-
-#: build/block-editor/index.js:4578
-msgid "↺ Stacked"
-msgstr ""
-
-#: build/block-editor/index.js:4617
-msgid "Elements Stacking"
-msgstr ""
-
-#: build/block-editor/index.js:4855
+#: build/block-editor/index.js:11
 msgid "Collection Title"
 msgstr ""
 
-#: build/block-editor/index.js:4858
+#: build/block-editor/index.js:11
 msgid "Collection Subtitle"
 msgstr ""
 
-#: build/block-editor/index.js:4862
-#: build/media-composition/index.js:792
+#: build/block-editor/index.js:11
+#: build/media-composition/index.js:1
 msgid "Media"
 msgstr ""
 
-#: build/block-editor/index.js:4866
+#: build/block-editor/index.js:11
 msgid "Title"
 msgstr ""
 
-#: build/block-editor/index.js:4869
+#: build/block-editor/index.js:11
 msgid "Subtitle"
 msgstr ""
 
-#: build/block-editor/index.js:4872
-#: build/block-library/blocks/menu-food/index.js:1693
+#: build/block-editor/index.js:11
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "Description"
 msgstr ""
 
-#: build/block-editor/index.js:4875
+#: build/block-editor/index.js:11
 msgid "Buttons"
 msgstr ""
 
-#: build/block-editor/index.js:4878
+#: build/block-editor/index.js:11
 msgid "Meta"
 msgstr ""
 
-#: build/block-editor/index.js:4882
+#: build/block-editor/index.js:11
 msgid "Inner Content"
 msgstr ""
 
-#: build/block-editor/index.js:4886
+#: build/block-editor/index.js:11
 msgid "Position Indicators"
 msgstr ""
 
-#: build/block-editor/index.js:4890
+#: build/block-editor/index.js:11
 msgid "Scroll Indicator"
 msgstr ""
 
-#: build/block-editor/index.js:4894
+#: build/block-editor/index.js:11
 msgid "Pagination"
 msgstr ""
 
-#: build/block-editor/index.js:4897
+#: build/block-editor/index.js:11
 msgid "Arrows"
 msgstr ""
 
-#: build/block-editor/index.js:4945
-#: build/block-library/blocks/post-comments/index.js:1735
+#: build/block-editor/index.js:11
+#: build/block-library/blocks/post-comments/index.js:6
 msgid "Elements Visibility"
 msgstr ""
 
-#: build/block-editor/index.js:4951
+#: build/block-editor/index.js:11
 msgid "Setup what content elements to show for each card."
 msgstr ""
 
-#: build/block-editor/index.js:5146
-msgid "Number of Cards and Distribution"
-msgstr ""
-
-#: build/block-editor/index.js:5151
-#: build/block-library/blocks/menu-food/index.js:1673
-#: build/block-library/blocks/menu-food/index.js:1868
-#: build/block-library/blocks/opentable/index.js:1660
-#: build/block-library/blocks/opentable/index.js:1665
-#: build/block-library/blocks/supernova/index.js:1552
-msgid "Layout"
-msgstr ""
-
-#: build/block-editor/index.js:5154
-msgid "Items Layout"
-msgstr ""
-
-#: build/block-editor/index.js:5162
-msgid "Fixed Width"
-msgstr ""
-
-#: build/block-editor/index.js:5165
-msgid "Variable Width"
-msgstr ""
-
-#: build/block-editor/index.js:5168
-msgid "Content Width"
-msgstr ""
-
-#: build/block-editor/index.js:5211
-msgid "Cards Count"
-msgstr ""
-
-#: build/block-editor/index.js:5244
-msgid "Parametric Grid"
-msgstr ""
-
-#: build/block-editor/index.js:5247
-msgid "Classic Grid"
-msgstr ""
-
-#: build/block-editor/index.js:5250
-msgid "Masonry"
-msgstr ""
-
-#: build/block-editor/index.js:5253
-msgid "Carousel"
-msgstr ""
-
-#: build/block-editor/index.js:5261
-msgid "Collection Layout Style"
-msgstr ""
-
-#: build/block-editor/index.js:5324
-msgid "Collection Layout"
-msgstr ""
-
-#: build/block-editor/index.js:5329
-#: build/block-editor/index.js:8966
-msgid "Choose a layout preset:"
-msgstr ""
-
-#: build/block-editor/index.js:5366
-#: build/block-editor/index.js:6074
-msgid "Items Count"
-msgstr ""
-
-#: build/block-editor/index.js:5413
-msgid "Items Gap"
-msgstr ""
-
-#: build/block-editor/index.js:5454
-msgid "Number of Items per Row"
-msgstr ""
-
-#: build/block-editor/index.js:5511
-msgid "Block Header"
-msgstr ""
-
-#: build/block-editor/index.js:5513
-msgid "Header Placement Area"
-msgstr ""
-
-#: build/block-editor/index.js:5533
-msgid "Header Item Location"
-msgstr ""
-
-#: build/block-editor/index.js:5610
-msgid "Breaking the Grid"
-msgstr ""
-
-#: build/block-editor/index.js:5612
-msgid "Featured Area Size"
-msgstr ""
-
-#: build/block-editor/index.js:5624
-msgid "Featured Area Position"
-msgstr ""
-
-#: build/block-editor/index.js:5636
-msgid "Grid Areas Fragmentation"
-msgstr ""
-
-#: build/block-editor/index.js:5648
-msgid "Grid Areas Crossing"
-msgstr ""
-
-#: build/block-editor/index.js:5709
-msgid "Debug Parameters"
-msgstr ""
-
-#: build/block-editor/index.js:5711
-msgid "Display Preview Scale"
-msgstr ""
-
-#: build/block-editor/index.js:5719
-msgid "Display Preview Mask"
-msgstr ""
-
-#: build/block-editor/index.js:5765
-msgid "Grid Anatomy"
-msgstr ""
-
-#: build/block-editor/index.js:5767
-msgid "Columns"
-msgstr ""
-
-#: build/block-editor/index.js:5784
-msgid "Rows"
-msgstr ""
-
-#: build/block-editor/index.js:5897
-msgid "Items Regularity"
-msgstr ""
-
-#: build/block-editor/index.js:5899
-msgid "Start of Image Variance"
-msgstr ""
-
-#: build/block-editor/index.js:5911
-msgid "End of Image Variance"
-msgstr ""
-
-#: build/block-editor/index.js:5923
-msgid "Start of Meta Fidelity"
-msgstr ""
-
-#: build/block-editor/index.js:5935
-msgid "End of Meta Fidelity"
-msgstr ""
-
-#: build/block-editor/index.js:5983
-msgid "Miscellanous Parameters"
-msgstr ""
-
-#: build/block-editor/index.js:5985
-msgid "Boost Featured Area Emphasis"
-msgstr ""
-
-#: build/block-editor/index.js:5993
-msgid "Display Sub-featured Area"
-msgstr ""
-
-#: build/block-editor/index.js:6001
-msgid "Balance Meta and Image"
-msgstr ""
-
-#: build/block-editor/index.js:6009
-msgid "Flip Cols and Rows"
-msgstr ""
-
-#: build/block-editor/index.js:6087
-msgid "Auto-count Items Number"
-msgstr ""
-
-#: build/block-editor/index.js:6712
-#: build/block-editor/index.js:6733
+#: build/block-editor/index.js:11
 msgid "Change content position"
 msgstr ""
 
-#: build/block-editor/index.js:7475
+#: build/block-editor/index.js:11
 msgid "Text Settings"
 msgstr ""
 
-#: build/block-editor/index.js:7596
-#: build/block-editor/index.js:7639
-msgid "Overlay Filter"
+#: build/block-editor/index.js:11
+msgid "↓ Vertical "
 msgstr ""
 
-#: build/block-editor/index.js:7597
-#: build/scrolling-effect/index.js:653
-#: build/shape-modeling/index.js:805
-msgid "Modules"
+#: build/block-editor/index.js:11
+msgid "↑ Vertical Reverse"
 msgstr ""
 
-#: build/block-editor/index.js:7602
-msgid "Overlay Filter Strength"
+#: build/block-editor/index.js:11
+msgid "→ Horizontal"
 msgstr ""
 
-#: build/block-editor/index.js:7647
-msgid "Unitone"
+#: build/block-editor/index.js:11
+msgid "← Horizontal Reverse"
 msgstr ""
 
-#: build/block-editor/index.js:7650
-msgid "Duotone"
+#: build/block-editor/index.js:11
+msgid "↺ Stacked"
 msgstr ""
 
-#: build/block-editor/index.js:7695
-msgid "Duotone Presets"
+#: build/block-editor/index.js:11
+msgid "Card Elements Stacking Style"
 msgstr ""
 
-#: build/block-editor/index.js:7706
-msgid "Highlights"
+#: build/block-editor/index.js:11
+msgid "Elements Stacking"
 msgstr ""
 
-#: build/block-editor/index.js:7719
-msgid "Shadows"
+#: build/block-editor/index.js:11
+msgid "Debug Parameters"
 msgstr ""
 
-#: build/block-editor/index.js:8173
+#: build/block-editor/index.js:11
+msgid "Display Preview Scale"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Display Preview Mask"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Block Header"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Header Placement Area"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Header Item Location"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Breaking the Grid"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Featured Area Size"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Featured Area Position"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Grid Areas Fragmentation"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Grid Areas Crossing"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Items Gap"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Grid Anatomy"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Columns"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Rows"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Items Count"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Auto-count Items Number"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Items Regularity"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Start of Image Variance"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "End of Image Variance"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Start of Meta Fidelity"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "End of Meta Fidelity"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Miscellanous Parameters"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Boost Featured Area Emphasis"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Display Sub-featured Area"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Balance Meta and Image"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Flip Cols and Rows"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Number of Items per Row"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Cards Count"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Number of Cards and Distribution"
+msgstr ""
+
+#: build/block-editor/index.js:11
+#: build/block-library/blocks/menu-food/index.js:6
+#: build/block-library/blocks/opentable/index.js:6
+#: build/block-library/blocks/supernova/index.js:6
+msgid "Layout"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Items Layout"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Fixed Width"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Variable Width"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Content Width"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Parametric Grid"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Classic Grid"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Masonry"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Carousel"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Collection Layout Style"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Collection Layout"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Choose a layout preset:"
+msgstr ""
+
+#: build/block-editor/index.js:11
 msgid "Enter Edit Mode"
 msgstr ""
 
-#: build/block-editor/index.js:8173
+#: build/block-editor/index.js:11
 msgid "Exit Edit Mode"
 msgstr ""
 
-#: build/block-editor/index.js:8288
-msgid "Emphasis by Space"
+#: build/block-editor/index.js:11
+msgid "Overlay Filter"
 msgstr ""
 
-#: build/block-editor/index.js:8305
-msgid "Enable Overlapping"
+#: build/block-editor/index.js:11
+msgid "Unitone"
 msgstr ""
 
-#: build/block-editor/index.js:8354
-msgid "Block Spacing"
+#: build/block-editor/index.js:11
+msgid "Duotone"
 msgstr ""
 
-#: build/block-editor/index.js:8373
-msgid "Block Top Spacing"
+#: build/block-editor/index.js:11
+msgid "Duotone Presets"
 msgstr ""
 
-#: build/block-editor/index.js:8392
-msgid "Block Bottom Spacing"
+#: build/block-editor/index.js:11
+msgid "Highlights"
 msgstr ""
 
-#: build/block-editor/index.js:8410
-msgid "Content Top Spacing"
+#: build/block-editor/index.js:11
+msgid "Shadows"
 msgstr ""
 
-#: build/block-editor/index.js:8428
-msgid "Content Bottom Spacing"
+#: build/block-editor/index.js:11
+#: build/scrolling-effect/index.js:1
+#: build/shape-modeling/index.js:6
+msgid "Modules"
 msgstr ""
 
-#: build/block-editor/index.js:8464
-msgid "Content Area Padding"
+#: build/block-editor/index.js:11
+msgid "Overlay Filter Strength"
 msgstr ""
 
-#: build/block-editor/index.js:8509
-msgid "Content to Media Spacing"
-msgstr ""
-
-#: build/block-editor/index.js:8558
-msgid "Thumbnail Aspect Ratio"
-msgstr ""
-
-#: build/block-editor/index.js:8581
-msgid "Landscape"
-msgstr ""
-
-#: build/block-editor/index.js:8584
-msgid "Portrait"
-msgstr ""
-
-#: build/block-editor/index.js:8587
-msgid "Auto"
-msgstr ""
-
-#: build/block-editor/index.js:8626
-msgid "Enable Image Container Editing"
-msgstr ""
-
-#: build/block-editor/index.js:8636
-#: build/media-composition/index.js:1032
-msgid "Media Aspect Ratio"
-msgstr ""
-
-#: build/block-editor/index.js:8648
-msgid "Image resizing"
-msgstr ""
-
-#: build/block-editor/index.js:8656
-#: build/media-composition/index.js:1052
-msgid "Stretch to fill the container"
-msgstr ""
-
-#: build/block-editor/index.js:8659
-#: build/media-composition/index.js:1055
-msgid "Shrink to fit (no crop)"
-msgstr ""
-
-#: build/block-editor/index.js:8718
-msgid "Space and Sizing"
-msgstr ""
-
-#: build/block-editor/index.js:8768
-msgid "Media Container Height"
-msgstr ""
-
-#: build/block-editor/index.js:8786
-msgid "Spacing Modifier"
-msgstr ""
-
-#: build/block-editor/index.js:8804
-msgid "Spacing Modifier for Inside Elements"
-msgstr ""
-
-#: build/block-editor/index.js:8848
-msgid "Media Area Padding"
-msgstr ""
-
-#: build/block-editor/index.js:8898
-msgid "Minimum Container Height"
-msgstr ""
-
-#: build/block-editor/index.js:9009
+#: build/block-editor/index.js:11
 msgid "Vertical Anchoring"
 msgstr ""
 
-#: build/block-editor/index.js:9082
+#: build/block-editor/index.js:11
+msgid "Emphasis by Space"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Enable Overlapping"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Block Spacing"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Block Top Spacing"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Block Bottom Spacing"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Content Top Spacing"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Content Bottom Spacing"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Enable Image Container Editing"
+msgstr ""
+
+#: build/block-editor/index.js:11
+#: build/media-composition/index.js:1
+msgid "Media Aspect Ratio"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Image resizing"
+msgstr ""
+
+#: build/block-editor/index.js:11
+#: build/media-composition/index.js:1
+msgid "Stretch to fill the container"
+msgstr ""
+
+#: build/block-editor/index.js:11
+#: build/media-composition/index.js:1
+msgid "Shrink to fit (no crop)"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Minimum Container Height"
+msgstr ""
+
+#: build/block-editor/index.js:11
 msgid "Emphasis by Balance"
 msgstr ""
 
-#: build/block-editor/index.js:9097
+#: build/block-editor/index.js:11
 msgid "Focal Point"
 msgstr ""
 
-#: build/block-editor/index.js:9105
+#: build/block-editor/index.js:11
 msgid "Content Area"
 msgstr ""
 
-#: build/block-editor/index.js:9108
+#: build/block-editor/index.js:11
 msgid "Media / Gallery"
 msgstr ""
 
-#: build/block-editor/index.js:9161
+#: build/block-editor/index.js:11
+msgid "Thumbnail Aspect Ratio"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Landscape"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Portrait"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Auto"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Content Area Padding"
+msgstr ""
+
+#: build/block-editor/index.js:11
 msgid "Content Width relative to Media Area"
 msgstr ""
 
-#: build/block-library/blocks/announcement-bar/index.js:1592
+#: build/block-editor/index.js:11
+msgid "Media Area Padding"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Content to Media Spacing"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Media Container Height"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Spacing Modifier"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Spacing Modifier for Inside Elements"
+msgstr ""
+
+#: build/block-editor/index.js:11
+msgid "Space and Sizing"
+msgstr ""
+
+#: build/block-library/blocks/announcement-bar/index.js:6
 msgid "Add a link to make the whole Announcement Bar clickable."
 msgstr ""
 
-#: build/block-library/blocks/announcement-bar/index.js:1613
+#: build/block-library/blocks/announcement-bar/index.js:6
 msgid "Open in new tab"
 msgstr ""
 
-#: build/block-library/blocks/facetwp-facet/index.js:169
-msgid "Select"
-msgstr ""
-
-#: build/block-library/blocks/facetwp-facet/index.js:211
-#: build/block-library/blocks/facetwp-filter/index.js:1481
-#: build/block-library/blocks/google-map/index.js:1756
-#: build/block-library/blocks/openhours/index.js:1930
-#: build/block-library/blocks/opentable/index.js:1612
+#: build/block-library/blocks/facetwp-facet/index.js:1
+#: build/block-library/blocks/facetwp-filter/index.js:1
+#: build/block-library/blocks/google-map/index.js:6
+#: build/block-library/blocks/openhours/index.js:1
+#: build/block-library/blocks/opentable/index.js:6
 msgid "Setup"
 msgstr ""
 
-#: build/block-library/blocks/facetwp-facet/index.js:215
+#: build/block-library/blocks/facetwp-facet/index.js:1
 msgid "Hide Label"
 msgstr ""
 
-#: build/block-library/blocks/facetwp-facet/index.js:223
+#: build/block-library/blocks/facetwp-facet/index.js:1
 msgid "Hide Counts"
 msgstr ""
 
-#: build/block-library/blocks/facetwp-facet/index.js:246
+#: build/block-library/blocks/facetwp-facet/index.js:1
 msgid "Change Facet"
 msgstr ""
 
-#: build/block-library/blocks/facetwp-filter/index.js:1469
-msgid "More Filters section"
+#: build/block-library/blocks/facetwp-facet/index.js:1
+msgid "Select"
 msgstr ""
 
-#: build/block-library/blocks/facetwp-filter/index.js:1471
-msgid "Filtering controls placed below will be shown using a \"More Filters\" button."
-msgstr ""
-
-#: build/block-library/blocks/facetwp-filter/index.js:1485
+#: build/block-library/blocks/facetwp-filter/index.js:1
 msgid "Filter Section Type"
 msgstr ""
 
-#: build/block-library/blocks/facetwp-filter/index.js:1500
+#: build/block-library/blocks/facetwp-filter/index.js:1
 msgid "Orientation"
 msgstr ""
 
-#: build/block-library/blocks/facetwp-title/index.js:1514
+#: build/block-library/blocks/facetwp-filter/index.js:1
+msgid "More Filters section"
+msgstr ""
+
+#: build/block-library/blocks/facetwp-filter/index.js:1
+msgid "Filtering controls placed below will be shown using a \"More Filters\" button."
+msgstr ""
+
+#: build/block-library/blocks/facetwp-title/index.js:1
 msgid "title"
 msgstr ""
 
-#: build/block-library/blocks/facetwp-toggle/index.js:1514
+#: build/block-library/blocks/facetwp-toggle/index.js:1
 msgid "trigger button"
 msgstr ""
 
-#: build/block-library/blocks/google-map/index.js:1491
-#: build/block-library/blocks/google-map/index.js:1858
-msgid "Paste API key here"
-msgstr ""
-
-#: build/block-library/blocks/google-map/index.js:1493
-msgid "Google Maps API Key"
-msgstr ""
-
-#: build/block-library/blocks/google-map/index.js:1501
-#: build/block-library/blocks/google-map/index.js:1877
-msgid "Save"
-msgstr ""
-
-#: build/block-library/blocks/google-map/index.js:1685
-msgid "Map Design"
-msgstr ""
-
-#: build/block-library/blocks/google-map/index.js:1709
-msgid "Show Nearby Venues"
-msgstr ""
-
-#: build/block-library/blocks/google-map/index.js:1718
-msgid "Show Labels"
-msgstr ""
-
-#: build/block-library/blocks/google-map/index.js:1727
-msgid "Show Controls"
-msgstr ""
-
-#: build/block-library/blocks/google-map/index.js:1736
-msgid "Show Marker Labels"
-msgstr ""
-
-#: build/block-library/blocks/google-map/index.js:1753
-msgid "Zoom Level"
-msgstr ""
-
-#: build/block-library/blocks/google-map/index.js:1760
-msgid "Map Markers"
-msgstr ""
-
-#: build/block-library/blocks/google-map/index.js:1853
-msgid "Location Map of The World"
-msgstr ""
-
-#: build/block-library/blocks/google-map/index.js:2165
-msgid "Enter an address to drop a pin on this map"
-msgstr ""
-
-#: build/block-library/blocks/google-map/index.js:2433
+#: build/block-library/blocks/google-map/index.js:6
 msgid "It seems that your Google Maps API key is INVALID. Please REFRESH the page, double check that you pasted it correctly, and that it is a valid API key. More information about how to <a>register a Google Maps API Key</a>."
 msgstr ""
 
-#: build/block-library/blocks/google-map/index.js:2441
+#: build/block-library/blocks/google-map/index.js:6
 msgid "To display the map, you need to <a>register a Google Maps API Key</a> and paste it here."
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1456
-msgid "Change Layout"
+#: build/block-library/blocks/google-map/index.js:6
+msgid "Paste API key here"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1577
-msgid "Header Layout"
+#: build/block-library/blocks/google-map/index.js:6
+msgid "Google Maps API Key"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1585
-#: build/media-composition/index.js:915
-msgid "Quick start:"
+#: build/block-library/blocks/google-map/index.js:6
+msgid "Save"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1585
-msgid "Set up your header layout using the options below and go to the <a>Customizer</a> to change the logo and menu content."
+#: build/block-library/blocks/google-map/index.js:6
+msgid "Map Design"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1592
-msgid "Header Position on Scroll"
+#: build/block-library/blocks/google-map/index.js:6
+msgid "Show Nearby Venues"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1606
-msgid "Sticky (fixed)"
+#: build/block-library/blocks/google-map/index.js:6
+msgid "Show Labels"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1611
-msgid "Sticky Row Selection"
+#: build/block-library/blocks/google-map/index.js:6
+msgid "Show Controls"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1612
-msgid "Select which row stay fixed on scroll."
+#: build/block-library/blocks/google-map/index.js:6
+msgid "Show Marker Labels"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1631
+#: build/block-library/blocks/google-map/index.js:6
+msgid "Zoom Level"
+msgstr ""
+
+#: build/block-library/blocks/google-map/index.js:6
+msgid "Map Markers"
+msgstr ""
+
+#: build/block-library/blocks/google-map/index.js:6
+msgid "Enter an address to drop a pin on this map"
+msgstr ""
+
+#: build/block-library/blocks/google-map/index.js:6
+msgid "Location Map of The World"
+msgstr ""
+
+#: build/block-library/blocks/header/index.js:6
 msgid "Logo Height"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1632
+#: build/block-library/blocks/header/index.js:6
 msgid "Adjust the height of your logo."
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1643
+#: build/block-library/blocks/header/index.js:6
 msgid "Mobile Logo Height"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1644
+#: build/block-library/blocks/header/index.js:6
 msgid "Adjust the height of your logo on small screens."
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1655
+#: build/block-library/blocks/header/index.js:6
 msgid "Navigation Link Spacing"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1656
+#: build/block-library/blocks/header/index.js:6
 msgid "Adjust the spacing between individual items in your navigation."
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1667
+#: build/block-library/blocks/header/index.js:6
 msgid "Header Sides Spacing"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1668
+#: build/block-library/blocks/header/index.js:6
 msgid "Adjust the space separating the header and the sides of the browser."
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1679
+#: build/block-library/blocks/header/index.js:6
 msgid "Sticky Header Spacing Multiplier"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:1680
+#: build/block-library/blocks/header/index.js:6
 msgid "Adjust the vertical spacing for the sticky header on scroll."
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:2119
+#: build/block-library/blocks/header/index.js:6
+msgid "Header Layout"
+msgstr ""
+
+#: build/block-library/blocks/header/index.js:6
+#: build/media-composition/index.js:1
+msgid "Quick start:"
+msgstr ""
+
+#: build/block-library/blocks/header/index.js:6
+msgid "Set up your header layout using the options below and go to the <a>Customizer</a> to change the logo and menu content."
+msgstr ""
+
+#: build/block-library/blocks/header/index.js:6
+msgid "Header Position on Scroll"
+msgstr ""
+
+#: build/block-library/blocks/header/index.js:6
+msgid "Sticky (fixed)"
+msgstr ""
+
+#: build/block-library/blocks/header/index.js:6
+msgid "Sticky Row Selection"
+msgstr ""
+
+#: build/block-library/blocks/header/index.js:6
+msgid "Select which row stay fixed on scroll."
+msgstr ""
+
+#: build/block-library/blocks/header/index.js:6
+msgid "Change Layout"
+msgstr ""
+
+#: build/block-library/blocks/header/index.js:6
 msgid "Logo on the left side and one navigation menu"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:2127
+#: build/block-library/blocks/header/index.js:6
 msgid "Logo centered and one navigation menu on each side"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:2171
+#: build/block-library/blocks/header/index.js:6
 msgid "Logo left with one menu on the right."
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:2179
-#: build/block-library/blocks/header/index.js:2199
-#: build/block-library/blocks/header/index.js:2233
-#: build/block-library/blocks/header/index.js:2272
+#: build/block-library/blocks/header/index.js:6
 msgid "Primary Navigation"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:2191
+#: build/block-library/blocks/header/index.js:6
 msgid "Logo centered with one menu on the left and one menu on the right."
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:2213
+#: build/block-library/blocks/header/index.js:6
 msgid "Two Rows Header with centered logo and three menus."
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:2222
-#: build/block-library/blocks/header/index.js:2265
+#: build/block-library/blocks/header/index.js:6
 msgid "Site Identity / Logo"
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:2245
+#: build/block-library/blocks/header/index.js:6
 msgid "Three Rows Header with centered logo and three menus."
 msgstr ""
 
-#: build/block-library/blocks/header/index.js:2254
+#: build/block-library/blocks/header/index.js:6
 msgid "Secondary Navigation"
 msgstr ""
 
-#: build/block-library/blocks/headline/index.js:1472
-msgid "Headline Settings"
-msgstr ""
-
-#: build/block-library/blocks/headline/index.js:1474
-msgid "Level"
-msgstr ""
-
-#: build/block-library/blocks/headline/index.js:1509
+#: build/block-library/blocks/headline/index.js:6
 msgid "Subtitle…"
 msgstr ""
 
-#: build/block-library/blocks/headline/index.js:1522
+#: build/block-library/blocks/headline/index.js:6
 msgid "Write title…"
 msgstr ""
 
-#: build/block-library/blocks/menu-food/index.js:1499
+#: build/block-library/blocks/headline/index.js:6
+msgid "Headline Settings"
+msgstr ""
+
+#: build/block-library/blocks/headline/index.js:6
+msgid "Level"
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "Add New Section"
 msgstr ""
 
-#: build/block-library/blocks/menu-food/index.js:1501
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "Add Section"
 msgstr ""
 
-#: build/block-library/blocks/menu-food/index.js:1677
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "2 columns"
 msgstr ""
 
-#: build/block-library/blocks/menu-food/index.js:1685
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "Price"
 msgstr ""
 
-#: build/block-library/blocks/menu-food/index.js:1781
-msgid "Menu Item"
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:1782
-msgid "A food or drink item contained in a menu or menu section."
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:1786
-msgid "menu item"
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:1786
-msgid "food item"
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:1786
-msgid "dish"
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:1786
-msgid "list item"
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:1791
-msgid "Sweet Shrimp Salad"
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:1795
-msgid "Tomatillo, Baja Crema, Cabbage, Fried Okra"
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:1807
-msgid "Our top pick"
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:1872
-msgid "Highlight item"
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:1873
-msgid "Use it if you want to highlight some of the menu items and make them stand out."
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:1881
-msgid "On sale"
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:1966
-msgid "Product Title"
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:1978
-msgid "$0.00"
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:2002
-msgid "Product Description"
-msgstr ""
-
-#: build/block-library/blocks/menu-food/index.js:2191
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "Food Menu Section"
 msgstr ""
 
-#: build/block-library/blocks/menu-food/index.js:2192
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "A subgrouping of the Menu."
 msgstr ""
 
-#: build/block-library/blocks/menu-food/index.js:2196
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "menu section"
 msgstr ""
 
-#: build/block-library/blocks/menu-food/index.js:2196
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "food section"
 msgstr ""
 
-#: build/block-library/blocks/menu-food/index.js:2196
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "list section"
 msgstr ""
 
-#: build/block-library/blocks/menu-food/index.js:2196
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "dishes section"
 msgstr ""
 
-#: build/block-library/blocks/menu-food/index.js:2201
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "Drinks"
 msgstr ""
 
-#: build/block-library/blocks/menu-food/index.js:2287
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "Add New Item"
 msgstr ""
 
-#: build/block-library/blocks/menu-food/index.js:2289
+#: build/block-library/blocks/menu-food/index.js:6
 msgid "Add Item"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1867
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "Menu Item"
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "A food or drink item contained in a menu or menu section."
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "menu item"
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "food item"
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "dish"
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "list item"
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "Sweet Shrimp Salad"
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "Tomatillo, Baja Crema, Cabbage, Fried Okra"
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "Our top pick"
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "Product Title"
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "$0.00"
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "Product Description"
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "Highlight item"
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "Use it if you want to highlight some of the menu items and make them stand out."
+msgstr ""
+
+#: build/block-library/blocks/menu-food/index.js:6
+msgid "On sale"
+msgstr ""
+
+#: build/block-library/blocks/openhours/index.js:1
 msgid "OpenHours"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1868
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Display Opening Hours for any kind of venue."
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1935
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Write your opening hours in a simple human readable format"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1948
-#: build/block-library/blocks/sharing-overlay/index.js:1490
-#: build/core/index.js:1628
-#: build/media-composition/index.js:1002
+#: build/block-library/blocks/openhours/index.js:1
+msgid ""
+"Monday 10am - 3pm\n"
+"Tuesday to Friday 9 - 17\n"
+"Sat noon - 2am"
+msgstr ""
+
+#: build/block-library/blocks/openhours/index.js:1
+#: build/block-library/blocks/sharing-overlay/index.js:6
+#: build/core/index.js:6
+#: build/media-composition/index.js:1
 msgid "Display"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1953
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Displaying the opening hours"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1956
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Overview"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1959
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Current Status"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1969
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Write the \"Open\" and \"Closed\" messages using the tags displayed below."
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1970
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Open Note"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1979
+#: build/block-library/blocks/openhours/index.js:1
 msgid "It's {time} and we're Open until {today-closing-time}."
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1981
+#: build/block-library/blocks/openhours/index.js:1
 msgid "{time} - It's today, we're Open."
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1982
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Closed Note"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1991
+#: build/block-library/blocks/openhours/index.js:1
 msgid "We're closed until {next-opening-day} at {next-opening-time}."
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1993
+#: build/block-library/blocks/openhours/index.js:1
 msgid "{time} - it's closed now."
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:1994
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Closed Label"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:2002
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Compress Opening Hours"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:2010
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Hide Closed Days"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:2018
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Use Short Day Name"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:2026
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Time Format"
 msgstr ""
 
-#: build/block-library/blocks/openhours/index.js:2030
+#: build/block-library/blocks/openhours/index.js:1
 msgid "Learn more about time formatting"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1541
+#: build/block-library/blocks/opentable/index.js:6
 msgid "OpenTable Reservation"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1542
+#: build/block-library/blocks/opentable/index.js:6
 msgid "Add OpenTable online reservation booking to your site."
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1546
+#: build/block-library/blocks/opentable/index.js:6
 msgid "reservations"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1546
+#: build/block-library/blocks/opentable/index.js:6
 msgid "bookings"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1617
+#: build/block-library/blocks/opentable/index.js:6
 msgid "Restaurant ID"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1618
+#: build/block-library/blocks/opentable/index.js:6
 msgid "1"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1619
+#: build/block-library/blocks/opentable/index.js:6
 msgid "You can find your restaurant ID on the OpenTable website."
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1629
+#: build/block-library/blocks/opentable/index.js:6
 msgid "Language"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1632
+#: build/block-library/blocks/opentable/index.js:6
 msgid "English-EN"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1635
+#: build/block-library/blocks/opentable/index.js:6
 msgid "French-CA"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1638
+#: build/block-library/blocks/opentable/index.js:6
 msgid "Deutsch-DE"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1641
+#: build/block-library/blocks/opentable/index.js:6
 msgid "Spanish-MX"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1644
+#: build/block-library/blocks/opentable/index.js:6
 msgid "Japanese-JP"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1647
+#: build/block-library/blocks/opentable/index.js:6
 msgid "Dutch-NL"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1650
+#: build/block-library/blocks/opentable/index.js:6
 msgid "Italian-IT"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1669
+#: build/block-library/blocks/opentable/index.js:6
 msgid "Horizontal"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1672
+#: build/block-library/blocks/opentable/index.js:6
 msgid "Vertical"
 msgstr ""
 
-#: build/block-library/blocks/opentable/index.js:1682
+#: build/block-library/blocks/opentable/index.js:6
 msgid "Show OpenTable Logo"
 msgstr ""
 
-#: build/block-library/blocks/post-comments/index.js:1469
-msgid "Nova Blocks: Conversation System Block."
-msgstr ""
-
-#: build/block-library/blocks/post-comments/index.js:1473
-msgid "Comments are disabled for this post"
-msgstr ""
-
-#: build/block-library/blocks/post-comments/index.js:1491
-msgid "What’s your comment or question?"
-msgstr ""
-
-#: build/block-library/blocks/post-comments/index.js:1493
-msgid "Let’s start a personal and a meaningful conversation. "
-msgstr ""
-
-#: build/block-library/blocks/post-comments/index.js:1498
-msgid "Join the conversation, share your knowledge or ask a question..."
-msgstr ""
-
-#: build/block-library/blocks/post-comments/index.js:1505
-msgid "What is your expertise or qualification in this topic?"
-msgstr ""
-
-#: build/block-library/blocks/post-comments/index.js:1515
-msgid "Your relevant experience or expertise..."
-msgstr ""
-
-#: build/block-library/blocks/post-comments/index.js:1530
-msgid "eg. John Doe"
-msgstr ""
-
-#: build/block-library/blocks/post-comments/index.js:1537
-msgid "Your email address will not be published."
-msgstr ""
-
-#: build/block-library/blocks/post-comments/index.js:1590
+#: build/block-library/blocks/post-comments/index.js:6
 msgid "No comments."
 msgstr ""
 
-#: build/block-library/blocks/post-comments/index.js:1736
-#: build/block-library/blocks/sidecar/index.js:1773
+#: build/block-library/blocks/post-comments/index.js:6
+msgid "Comments are disabled for this post"
+msgstr ""
+
+#: build/block-library/blocks/post-comments/index.js:6
+msgid "What’s your comment or question?"
+msgstr ""
+
+#: build/block-library/blocks/post-comments/index.js:6
+msgid "Let’s start a personal and a meaningful conversation. "
+msgstr ""
+
+#: build/block-library/blocks/post-comments/index.js:6
+msgid "Join the conversation, share your knowledge or ask a question..."
+msgstr ""
+
+#: build/block-library/blocks/post-comments/index.js:6
+msgid "What is your expertise or qualification in this topic?"
+msgstr ""
+
+#: build/block-library/blocks/post-comments/index.js:6
+msgid "Your relevant experience or expertise..."
+msgstr ""
+
+#: build/block-library/blocks/post-comments/index.js:6
+msgid "eg. John Doe"
+msgstr ""
+
+#: build/block-library/blocks/post-comments/index.js:6
+msgid "Your email address will not be published."
+msgstr ""
+
+#: build/block-library/blocks/post-comments/index.js:6
+msgid "Nova Blocks: Conversation System Block."
+msgstr ""
+
+#: build/block-library/blocks/post-comments/index.js:6
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Block Anatomy"
 msgstr ""
 
-#: build/block-library/blocks/sharing-overlay/frontend.js:1702
+#: build/block-library/blocks/sharing-overlay/frontend.js:1
 msgid "Sharing Options"
 msgstr ""
 
-#: build/block-library/blocks/sharing-overlay/frontend.js:1705
+#: build/block-library/blocks/sharing-overlay/frontend.js:1
 msgid "Thanks for spreading the word!"
 msgstr ""
 
-#: build/block-library/blocks/sharing-overlay/frontend.js:1830
-msgid "Share publicly on social networks"
-msgstr ""
-
-#: build/block-library/blocks/sharing-overlay/frontend.js:1856
-msgid "Share privately with friends"
-msgstr ""
-
-#: build/block-library/blocks/sharing-overlay/frontend.js:1883
-msgid "Or maybe you want in person?"
-msgstr ""
-
-#: build/block-library/blocks/sharing-overlay/frontend.js:1928
+#: build/block-library/blocks/sharing-overlay/frontend.js:1
 msgid "Use a link for everything"
 msgstr ""
 
-#: build/block-library/blocks/sharing-overlay/frontend.js:1929
+#: build/block-library/blocks/sharing-overlay/frontend.js:1
 msgid "Copy link and paste it anywhere you want it."
 msgstr ""
 
-#: build/block-library/blocks/sharing-overlay/frontend.js:1938
+#: build/block-library/blocks/sharing-overlay/frontend.js:1
 msgid "Copy link to clipboard"
 msgstr ""
 
-#: build/block-library/blocks/sharing-overlay/index.js:1470
+#: build/block-library/blocks/sharing-overlay/frontend.js:1
+msgid "Share privately with friends"
+msgstr ""
+
+#: build/block-library/blocks/sharing-overlay/frontend.js:1
+msgid "Share publicly on social networks"
+msgstr ""
+
+#: build/block-library/blocks/sharing-overlay/frontend.js:1
+msgid "Or maybe you want in person?"
+msgstr ""
+
+#: build/block-library/blocks/sharing-overlay/index.js:6
 msgid "Copy Link"
 msgstr ""
 
-#: build/block-library/blocks/sharing-overlay/index.js:1473
+#: build/block-library/blocks/sharing-overlay/index.js:6
 msgid "Share Privately"
 msgstr ""
 
-#: build/block-library/blocks/sharing-overlay/index.js:1476
+#: build/block-library/blocks/sharing-overlay/index.js:6
 msgid "Social Icons"
 msgstr ""
 
-#: build/block-library/blocks/sharing-overlay/index.js:1479
+#: build/block-library/blocks/sharing-overlay/index.js:6
 msgid "Show Print"
 msgstr ""
 
-#: build/block-library/blocks/sharing-overlay/index.js:1503
+#: build/block-library/blocks/sharing-overlay/index.js:6
 msgid "Set up sections for this block"
 msgstr ""
 
-#: build/block-library/blocks/sharing-overlay/index.js:1512
+#: build/block-library/blocks/sharing-overlay/index.js:6
 msgid "Set up social icons"
 msgstr ""
 
-#: build/block-library/blocks/sidecar/index.js:1458
-msgid "Show Sidebar on Left Side"
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1462
-msgid "Show Sidebar on Right Side"
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1762
-msgid "The <header> element should represent introductory content, typically a group of introductory or navigational aids."
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1763
-msgid "The <main> element should be used for the primary content of your document only. "
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1764
-msgid "The <section> element should represent a standalone portion of the document that can't be better represented by another element."
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1765
-msgid "The <article> element should represent a self-contained, syndicatable portion of the document."
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1766
-msgid "The <aside> element should represent a portion of a document whose content is only indirectly related to the document's main content."
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1767
-msgid "The <footer> element should represent a footer for its nearest sectioning element (e.g.: <section>, <article>, <main> etc.)."
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1772
-msgid "Sidecar Layout"
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1779
-msgid "Sidebar Position"
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1782
-msgid "Show sidebar on left"
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1785
-msgid "Show sidebar on right"
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1788
-msgid "No sidebar"
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1814
-msgid "Sidebar Size"
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1832
-msgid "Enable sticky sidebar on scroll"
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1833
-msgid "The last item inside sidebar will be sticky on scroll."
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1833
-msgid "All blocks inside sidebar will be static."
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1843
-msgid "HTML element"
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1845
-msgid "Default (<div>)"
-msgstr ""
-
-#: build/block-library/blocks/sidecar/index.js:1899
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Content Font Size"
 msgstr ""
 
-#: build/block-library/blocks/sidecar/index.js:1909
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Sidebar Font Size"
 msgstr ""
 
-#: build/block-library/blocks/sidecar/index.js:2013
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "The <header> element should represent introductory content, typically a group of introductory or navigational aids."
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "The <main> element should be used for the primary content of your document only. "
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "The <section> element should represent a standalone portion of the document that can't be better represented by another element."
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "The <article> element should represent a self-contained, syndicatable portion of the document."
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "The <aside> element should represent a portion of a document whose content is only indirectly related to the document's main content."
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "The <footer> element should represent a footer for its nearest sectioning element (e.g.: <section>, <article>, <main> etc.)."
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "Sidecar Layout"
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "Sidebar Position"
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "Show sidebar on left"
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "Show sidebar on right"
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "No sidebar"
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "Sidebar Size"
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "Enable sticky sidebar on scroll"
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "The last item inside sidebar will be sticky on scroll."
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "All blocks inside sidebar will be static."
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "HTML element"
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "Default (<div>)"
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "Show Sidebar on Left Side"
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
+msgid "Show Sidebar on Right Side"
+msgstr ""
+
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Sidebar Left with Content on the right"
 msgstr ""
 
-#: build/block-library/blocks/sidecar/index.js:2026
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Sidebar Right with Content on the left"
 msgstr ""
 
-#: build/block-library/blocks/sidecar/index.js:2040
+#: build/block-library/blocks/sidecar/index.js:6
 msgid "Centered Content with no Sidebar"
 msgstr ""
 
-#: build/block-library/blocks/supernova-item/index.js:1478
-#: build/block-library/blocks/supernova/index.js:1491
-#: build/block-library/blocks/supernova/index.js:1561
+#: build/block-library/blocks/supernova-item/index.js:1
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Cards"
 msgstr ""
 
-#: build/block-library/blocks/supernova-item/index.js:1481
+#: build/block-library/blocks/supernova-item/index.js:1
 msgid "Duplicate Card"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:1498
-#: build/block-library/blocks/supernova/index.js:1571
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Add Cards"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:1582
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Insert a card that matches the same design and details as the last."
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:1584
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Add New Card"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:1592
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Add Blank Card"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:1602
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Open the Media Library and insert new cards for each selected media item."
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:1605
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Add Cards Gallery"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:1910
-msgid "No posts to display."
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:2119
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Show Media on Left Side"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:2124
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Show Media on Right Side"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:2886
-#: build/block-library/blocks/supernova/index.js:2893
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Content Type"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:2896
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Pre-defined fields"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:2899
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Custom Blocks"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3416
+#: build/block-library/blocks/supernova/index.js:6
+msgid "No posts to display."
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Advanced Gallery"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3417
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Display a gallery of images in a unique and creative composition."
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3418
+#: build/block-library/blocks/supernova/index.js:6
 msgid "media"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3418
-#: build/block-library/blocks/supernova/index.js:3862
-#: build/block-library/blocks/supernova/index.js:3963
-#: build/block-library/blocks/supernova/index.js:4141
-#: build/block-library/blocks/supernova/index.js:4490
-#: build/block-library/blocks/supernova/index.js:4652
-#: build/block-library/blocks/supernova/index.js:4862
-#: build/block-library/blocks/supernova/index.js:5029
+#: build/block-library/blocks/supernova/index.js:6
 msgid "collection"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3418
-#: build/block-library/blocks/supernova/index.js:3533
-#: build/block-library/blocks/supernova/index.js:3682
-#: build/block-library/blocks/supernova/index.js:3788
-#: build/block-library/blocks/supernova/index.js:3862
-#: build/block-library/blocks/supernova/index.js:3963
-#: build/block-library/blocks/supernova/index.js:4141
-#: build/block-library/blocks/supernova/index.js:4490
-#: build/block-library/blocks/supernova/index.js:4652
-#: build/block-library/blocks/supernova/index.js:4862
-#: build/block-library/blocks/supernova/index.js:5029
+#: build/block-library/blocks/supernova/index.js:6
 msgid "layout"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3418
-#: build/block-library/blocks/supernova/index.js:4141
-#: build/block-library/blocks/supernova/index.js:4862
+#: build/block-library/blocks/supernova/index.js:6
 msgid "composition"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3517
-msgid "This is a catchy title"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3519
-msgid "A brilliant subtitle to explain its catchiness"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3527
-#: build/block-library/blocks/supernova/index.js:3676
-#: build/block-library/blocks/supernova/index.js:3782
-msgid "Discover more"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3531
-msgid "Hero Card"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3532
-msgid "A great way to get your visitors acquainted with your content."
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3533
-#: build/block-library/blocks/supernova/index.js:3682
-#: build/block-library/blocks/supernova/index.js:3788
-#: build/block-library/blocks/supernova/index.js:3862
-#: build/block-library/blocks/supernova/index.js:3963
-#: build/block-library/blocks/supernova/index.js:4141
-msgid "card"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3533
-msgid "hero"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3533
-msgid "full-width"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3533
-msgid "cover"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3669
-#: build/block-library/blocks/supernova/index.js:3775
-msgid "Shoot for the moon, Even if You Miss."
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3672
-#: build/block-library/blocks/supernova/index.js:3778
-msgid "A catchy title"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3674
-#: build/block-library/blocks/supernova/index.js:3780
-msgid "A brilliant description to explain its catchiness. We have always defined ourselves by the ability to overcome the impossible. And we count these moments. These moments when we dare to aim higher, to break barriers, to make the unknown known."
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3680
-msgid "Media Card"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3681
-msgid "Display media alongside short pieces of content."
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3682
-msgid "media-text"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3682
-msgid "feature"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3682
-#: build/block-library/blocks/supernova/index.js:3862
-#: build/block-library/blocks/supernova/index.js:4490
-#: build/block-library/blocks/supernova/index.js:5029
-msgid "section"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3786
-msgid "Vertical Card"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3787
-msgid "Display media and short pieces of content, one after another."
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3788
-msgid "vertical"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3788
-msgid "panel"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3788
-msgid "column"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:3860
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Cards Collection: Carousel"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3861
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Display a list of related items in a carousel/slideshow layout."
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3862
-#: build/block-library/blocks/supernova/index.js:4490
-#: build/block-library/blocks/supernova/index.js:5029
+#: build/block-library/blocks/supernova/index.js:6
+msgid "card"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
 msgid "carousel"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3862
-#: build/block-library/blocks/supernova/index.js:4490
-#: build/block-library/blocks/supernova/index.js:5029
+#: build/block-library/blocks/supernova/index.js:6
 msgid "slideshow"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3862
-#: build/block-library/blocks/supernova/index.js:4490
-#: build/block-library/blocks/supernova/index.js:5029
+#: build/block-library/blocks/supernova/index.js:6
 msgid "slider"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3862
-#: build/block-library/blocks/supernova/index.js:4490
-#: build/block-library/blocks/supernova/index.js:5029
+#: build/block-library/blocks/supernova/index.js:6
 msgid "horizontal"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3961
+#: build/block-library/blocks/supernova/index.js:6
+msgid "section"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Cards Collection: Classic Grid"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3962
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Display a list of related items in a classic grid layout."
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3963
-#: build/block-library/blocks/supernova/index.js:4141
-#: build/block-library/blocks/supernova/index.js:4652
-#: build/block-library/blocks/supernova/index.js:4862
+#: build/block-library/blocks/supernova/index.js:6
 msgid "grid"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3963
-#: build/block-library/blocks/supernova/index.js:4141
-#: build/block-library/blocks/supernova/index.js:4652
-#: build/block-library/blocks/supernova/index.js:4862
+#: build/block-library/blocks/supernova/index.js:6
 msgid "columns"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:3963
-#: build/block-library/blocks/supernova/index.js:4141
-#: build/block-library/blocks/supernova/index.js:4652
-#: build/block-library/blocks/supernova/index.js:4862
+#: build/block-library/blocks/supernova/index.js:6
 msgid "rows"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4139
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Cards Collection: Parametric Grid"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4140
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Display a list of related items in a parametric grid layout."
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4141
-#: build/block-library/blocks/supernova/index.js:4862
+#: build/block-library/blocks/supernova/index.js:6
 msgid "parametric"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4488
-msgid "Query Loop → Posts Collection: Carousel"
+#: build/block-library/blocks/supernova/index.js:6
+msgid "This is a catchy title"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4489
-msgid "Display a queried set of posts in a carousel layout."
+#: build/block-library/blocks/supernova/index.js:6
+msgid "A brilliant subtitle to explain its catchiness"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4490
-#: build/block-library/blocks/supernova/index.js:4652
-#: build/block-library/blocks/supernova/index.js:4862
-#: build/block-library/blocks/supernova/index.js:5029
-msgid "query"
+#: build/block-library/blocks/supernova/index.js:6
+msgid "Discover more"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4490
-#: build/block-library/blocks/supernova/index.js:4652
-#: build/block-library/blocks/supernova/index.js:4862
-#: build/block-library/blocks/supernova/index.js:5029
-msgid "post"
+#: build/block-library/blocks/supernova/index.js:6
+msgid "Hero Card"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4624
+#: build/block-library/blocks/supernova/index.js:6
+msgid "A great way to get your visitors acquainted with your content."
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "hero"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "full-width"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "cover"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "Shoot for the moon, Even if You Miss."
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "A catchy title"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "A brilliant description to explain its catchiness. We have always defined ourselves by the ability to overcome the impossible. And we count these moments. These moments when we dare to aim higher, to break barriers, to make the unknown known."
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "Media Card"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "Display media alongside short pieces of content."
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "media-text"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "feature"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "Vertical Card"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "Display media and short pieces of content, one after another."
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "vertical"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "panel"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "column"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Fresh posts from the grid"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4625
+#: build/block-library/blocks/supernova/index.js:6
 msgid "A collection of our latest articles."
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4650
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Query Loop → Posts Collection: Classic Grid"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4651
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Display a queried set of posts in a classic grid format (columns and rows)."
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4837
-msgid "Our latest brainy posts"
+#: build/block-library/blocks/supernova/index.js:6
+msgid "query"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4838
-msgid "A super-duper-parametric collection of our latest brain-dumps."
+#: build/block-library/blocks/supernova/index.js:6
+msgid "post"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4860
-msgid "Query Loop → Posts Collection: Parametric Grid"
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:4861
-msgid "Display a queried set of posts in a beautiful, consistent manner."
-msgstr ""
-
-#: build/block-library/blocks/supernova/index.js:4996
+#: build/block-library/blocks/supernova/index.js:6
 msgid "You should read these"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:4997
+#: build/block-library/blocks/supernova/index.js:6
 msgid "A fancy slideshow with our latest posts never hurt nobody."
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:5027
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Query Loop → Posts Collection: Slideshow"
 msgstr ""
 
-#: build/block-library/blocks/supernova/index.js:5028
+#: build/block-library/blocks/supernova/index.js:6
 msgid "Display a queried set of posts in a slideshow layout."
 msgstr ""
 
-#: build/collection/index.js:457
-msgid "Collection subtitle"
+#: build/block-library/blocks/supernova/index.js:6
+msgid "Our latest brainy posts"
 msgstr ""
 
-#: build/collection/index.js:507
+#: build/block-library/blocks/supernova/index.js:6
+msgid "A super-duper-parametric collection of our latest brain-dumps."
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "Query Loop → Posts Collection: Parametric Grid"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "Display a queried set of posts in a beautiful, consistent manner."
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "Query Loop → Posts Collection: Carousel"
+msgstr ""
+
+#: build/block-library/blocks/supernova/index.js:6
+msgid "Display a queried set of posts in a carousel layout."
+msgstr ""
+
+#: build/collection/index.js:6
 msgid "Collection title"
 msgstr ""
 
-#: build/color-signal/index.js:449
-#: build/color-signal/index.js:507
-msgid "Block Color Signal"
+#: build/collection/index.js:6
+msgid "Collection subtitle"
 msgstr ""
 
-#: build/color-signal/index.js:687
+#: build/color-signal/index.js:6
 msgid "Use Source Color as Reference"
 msgstr ""
 
-#: build/color-signal/index.js:821
-#: build/color-signal/index.js:876
-msgid "Content Area Color Signal"
-msgstr ""
-
-#: build/color-signal/index.js:932
-msgid "Emphasis Area"
-msgstr ""
-
-#: build/color-signal/index.js:970
+#: build/color-signal/index.js:6
 msgid "Use Functional Colors"
 msgstr ""
 
-#: build/color-signal/index.js:1072
+#: build/color-signal/index.js:6
 msgid "Miscellaneous"
 msgstr ""
 
-#: build/color-signal/index.js:1349
+#: build/color-signal/index.js:6
+msgid "Block Color Signal"
+msgstr ""
+
+#: build/color-signal/index.js:6
+msgid "Content Area Color Signal"
+msgstr ""
+
+#: build/color-signal/index.js:6
+msgid "Emphasis Area"
+msgstr ""
+
+#: build/color-signal/index.js:6
 msgid "Color Signal"
 msgstr ""
 
-#: build/color-signal/index.js:1358
+#: build/color-signal/index.js:6
 msgid "Quickstart:"
 msgstr ""
 
-#: build/color-signal/index.js:1358
+#: build/color-signal/index.js:6
 msgid "Use this tool to signal particular blocks on your page. A block with a higher color signal stands apart from the rest of your content."
 msgstr ""
 
-#: build/color-signal/index.js:1359
+#: build/color-signal/index.js:6
 msgid "✔ Ok, I get it!"
 msgstr ""
 
-#: build/core/index.js:1645
+#: build/core/index.js:6
 msgid "Marker Settings"
 msgstr ""
 
-#: build/core/index.js:1673
+#: build/core/index.js:6
 msgid "List Items Connection"
 msgstr ""
 
-#: build/core/index.js:1999
+#: build/core/index.js:6
 msgid "Prevent duplicate posts"
 msgstr ""
 
-#: build/media-composition/index.js:703
-#: build/media-composition/index.js:802
+#: build/media-composition/index.js:1
 msgid "Change Media"
 msgstr ""
 
-#: build/media-composition/index.js:816
+#: build/media-composition/index.js:1
 msgid "Edit Gallery"
 msgstr ""
 
-#: build/media-composition/index.js:827
+#: build/media-composition/index.js:1
 msgid "Add Video"
 msgstr ""
 
-#: build/media-composition/index.js:905
-msgid "Media Composition"
-msgstr ""
-
-#: build/media-composition/index.js:915
-msgid "Set up your gallery layout using the presets list below and use the Customize tab to fine-tune the details."
-msgstr ""
-
-#: build/media-composition/index.js:916
-msgid "✔ Ok, I got it!"
-msgstr ""
-
-#: build/media-composition/index.js:926
-msgid "Images Crop Style"
-msgstr ""
-
-#: build/media-composition/index.js:940
-msgid "Gallery"
-msgstr ""
-
-#: build/media-composition/index.js:943
-msgid "Size Contrast"
-msgstr ""
-
-#: build/media-composition/index.js:955
-msgid "Position Shift"
-msgstr ""
-
-#: build/media-composition/index.js:967
-msgid "Elements Distance"
-msgstr ""
-
-#: build/media-composition/index.js:979
-msgid "Placement Variation"
-msgstr ""
-
-#: build/media-composition/index.js:991
-msgid "Image Rotation"
-msgstr ""
-
-#: build/media-composition/index.js:1005
-msgid "Image Position"
-msgstr ""
-
-#: build/media-composition/index.js:1044
+#: build/media-composition/index.js:1
 msgid "Image Resizing"
 msgstr ""
 
-#: build/scrolling-effect/index.js:462
-msgid "End Frame"
+#: build/media-composition/index.js:1
+msgid "Media Composition"
 msgstr ""
 
-#: build/scrolling-effect/index.js:496
-msgid "Smooth end transition"
+#: build/media-composition/index.js:1
+msgid "Set up your gallery layout using the presets list below and use the Customize tab to fine-tune the details."
 msgstr ""
 
-#: build/scrolling-effect/index.js:597
-msgid "Preview Scrolling"
+#: build/media-composition/index.js:1
+msgid "✔ Ok, I got it!"
 msgstr ""
 
-#: build/scrolling-effect/index.js:645
+#: build/media-composition/index.js:1
+msgid "Images Crop Style"
+msgstr ""
+
+#: build/media-composition/index.js:1
+msgid "Gallery"
+msgstr ""
+
+#: build/media-composition/index.js:1
+msgid "Size Contrast"
+msgstr ""
+
+#: build/media-composition/index.js:1
+msgid "Position Shift"
+msgstr ""
+
+#: build/media-composition/index.js:1
+msgid "Elements Distance"
+msgstr ""
+
+#: build/media-composition/index.js:1
+msgid "Placement Variation"
+msgstr ""
+
+#: build/media-composition/index.js:1
+msgid "Image Rotation"
+msgstr ""
+
+#: build/media-composition/index.js:1
+msgid "Image Position"
+msgstr ""
+
+#: build/scrolling-effect/index.js:1
 msgid "Doppler by Pixelgrade ®"
 msgstr ""
 
-#: build/scrolling-effect/index.js:652
+#: build/scrolling-effect/index.js:1
 msgid "Scrolling Effect"
 msgstr ""
 
-#: build/scrolling-effect/index.js:732
+#: build/scrolling-effect/index.js:1
+msgid "Preview Scrolling"
+msgstr ""
+
+#: build/scrolling-effect/index.js:1
 msgid "Static Scrolling Settings"
 msgstr ""
 
-#: build/scrolling-effect/index.js:734
+#: build/scrolling-effect/index.js:1
 msgid "Parallax Scrolling Settings"
 msgstr ""
 
-#: build/scrolling-effect/index.js:736
+#: build/scrolling-effect/index.js:1
 msgid "Start Frame"
 msgstr ""
 
-#: build/scrolling-effect/index.js:784
+#: build/scrolling-effect/index.js:1
 msgid "Smooth start transition"
 msgstr ""
 
-#: build/shape-modeling/index.js:365
+#: build/scrolling-effect/index.js:1
+msgid "End Frame"
+msgstr ""
+
+#: build/scrolling-effect/index.js:1
+msgid "Smooth end transition"
+msgstr ""
+
+#: build/shape-modeling/index.js:6
 msgid "Debug"
 msgstr ""
 
-#: build/shape-modeling/index.js:367
+#: build/shape-modeling/index.js:6
 msgid "Enable Shape Debug"
 msgstr ""
 
-#: build/shape-modeling/index.js:596
+#: build/shape-modeling/index.js:6
 msgid "Sides"
 msgstr ""
 
-#: build/shape-modeling/index.js:609
+#: build/shape-modeling/index.js:6
 msgid "Pattern Seed"
 msgstr ""
 
-#: build/shape-modeling/index.js:620
+#: build/shape-modeling/index.js:6
 msgid "Variation"
 msgstr ""
 
-#: build/shape-modeling/index.js:631
+#: build/shape-modeling/index.js:6
 msgid "Smoothness"
 msgstr ""
 
-#: build/shape-modeling/index.js:644
+#: build/shape-modeling/index.js:6
 msgid "Rotation"
 msgstr ""
 
-#: build/shape-modeling/index.js:691
+#: build/shape-modeling/index.js:6
 msgid "Scaling"
 msgstr ""
 
-#: build/shape-modeling/index.js:699
+#: build/shape-modeling/index.js:6
 msgid "Horizontal Displacement"
 msgstr ""
 
-#: build/shape-modeling/index.js:710
+#: build/shape-modeling/index.js:6
 msgid "Vertical Displacement"
 msgstr ""
 
-#: build/shape-modeling/index.js:721
+#: build/shape-modeling/index.js:6
 msgid "Size Balance"
 msgstr ""
 
-#: build/shape-modeling/index.js:767
-msgid "Swap shapes"
-msgstr ""
-
-#: build/shape-modeling/index.js:804
+#: build/shape-modeling/index.js:6
 msgid "Shape Modeling"
 msgstr ""
 
-#: build/shape-modeling/index.js:809
+#: build/shape-modeling/index.js:6
 msgid "Use this tool to generate shapes and combine them with your images to create designs that are a unique and memorable part of your brand identity."
 msgstr ""
 
-#: build/shape-modeling/index.js:811
+#: build/shape-modeling/index.js:6
 msgid "Choose a shape preset:"
 msgstr ""
 
-#: build/shape-modeling/index.js:819
+#: build/shape-modeling/index.js:6
 msgid "Media Shape"
 msgstr ""
 
-#: build/shape-modeling/index.js:820
+#: build/shape-modeling/index.js:6
 msgid "Enable Media Shape"
 msgstr ""
 
-#: build/shape-modeling/index.js:824
+#: build/shape-modeling/index.js:6
 msgid "Decorative Shape"
 msgstr ""
 
-#: build/shape-modeling/index.js:825
+#: build/shape-modeling/index.js:6
 msgid "Enable Blob Decoration"
 msgstr ""
 
-#: build/tools/index.js:138
+#: build/tools/index.js:1
 msgid "Nova Blocks Tools"
 msgstr ""
 
-#: build/tools/index.js:141
+#: build/tools/index.js:1
 msgid "Blocks"
 msgstr ""
 

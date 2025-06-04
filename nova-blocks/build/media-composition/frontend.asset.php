@@ -1,1 +1,1 @@
-<?php return array('dependencies' => array('jquery', 'novablocks-utils', 'wp-dom-ready', 'wp-polyfill'), 'version' => 'e8b178d2f59e58707bde3e2558b75fcb');
+<?php return array('dependencies' => array('jquery', 'novablocks-utils', 'wp-dom-ready', 'wp-polyfill'), 'version' => '968dd9e22f66d5f532f35752834ccfd6');
